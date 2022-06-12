@@ -7,7 +7,10 @@ JUnit w wersji 5:
 testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
 testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
 ```
-
+AssertJ:
+```bash
+testImplementation "org.assertj:assertj-core:3.11.1"
+```
 
 ### Tworzenie Live Templates w IntelliJ
 Live template ulatwia nam pewne powtarzalne rzeczy w IntelliJ
@@ -24,3 +27,4 @@ Live template ulatwia nam pewne powtarzalne rzeczy w IntelliJ
 * [Dokumentacja JUnit 5](https://junit.org/junit5/docs/current/user-guide/)
 * [Darmowe do pobrania JDK od Amazonu](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc)
 * [IntellIJ IDEA](https://www.jetbrains.com/idea/download/)
+* [AssertJ dokumentacja](https://joel-costigliola.github.io/assertj/)
