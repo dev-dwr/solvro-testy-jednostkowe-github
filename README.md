@@ -12,6 +12,11 @@ AssertJ:
 testImplementation "org.assertj:assertj-core:3.11.1"
 ```
 
+JUnit 5 Params
+```bash
+testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.4.2'
+```
+
 ### Tworzenie Live Templates w IntelliJ
 Live template ulatwia nam pewne powtarzalne rzeczy w IntelliJ
 1. zaznaczamy dany obszar w intellij
