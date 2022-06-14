@@ -17,8 +17,12 @@ dependencies {
     //assertJ
     testImplementation "org.assertj:assertj-core:3.11.1"
 
+    //juint5 params
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.4.2'
 
+    //Mockito
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.12.4'
+    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.12.4'
 }
 
 test {

@@ -16,6 +16,12 @@ JUnit 5 Params
 ```bash
 testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.4.2'
 ```
+Mockito
+```bash
+testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+```
+
 
 ### Tworzenie Live Templates w IntelliJ
 Live template ulatwia nam pewne powtarzalne rzeczy w IntelliJ
@@ -33,3 +39,4 @@ Live template ulatwia nam pewne powtarzalne rzeczy w IntelliJ
 * [Darmowe do pobrania JDK od Amazonu](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc)
 * [IntellIJ IDEA](https://www.jetbrains.com/idea/download/)
 * [AssertJ dokumentacja](https://joel-costigliola.github.io/assertj/)
+* [Mockito](https://site.mockito.org/)
